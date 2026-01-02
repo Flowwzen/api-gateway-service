@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "github.com/Flowwzen/api-gateway-service/internal/app"
 
 func main() {
-	fmt.Println("API Gateway placeholder")
+	app.Run()
 }
